@@ -6,7 +6,7 @@ git config --global user.name "Michael Sexton"
 git config --global push.default simple
 git clone https://github.com/comtesacristain/linux-setup.git
 cd linux-setup
-
+export LSPATH=`pwd`
 ./apps.sh
 ./ruby.sh
 
