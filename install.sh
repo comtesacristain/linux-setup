@@ -7,8 +7,10 @@ git config --global push.default simple
 git clone https://github.com/comtesacristain/linux-setup.git
 cd linux-setup
 export LSPATH=`pwd`
-./apps.sh
-./ruby.sh
+$LSPATH/scripts/apps.sh
+$LSPATH/scripts/ruby.sh
+$LSPATH/scripts/oracle.sh
+
 
 sudo apt-get upgrade
 
