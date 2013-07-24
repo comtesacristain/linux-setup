@@ -1,0 +1,1 @@
+wget -O - http://raw.github.com/comtesacristain/linux-setup/master/git.sh | bash
