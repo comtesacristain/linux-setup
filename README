@@ -1,1 +1,12 @@
+On installation of new Ubuntu Server, plug the machine into ethernet, and run this command
+
+sudo ifup p3p1 
+sudo dhclient -v p3p1
+
+Alternatively, follow the instructions in the wireless folder
+
+Then run this command to proceed with the install:
+
 wget -O - http://raw.github.com/comtesacristain/linux-setup/master/install.sh | bash
+
+This should then install your standard desired Linux install.
